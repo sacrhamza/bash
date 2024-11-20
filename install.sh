@@ -1,17 +1,17 @@
 #!/bin/bash
 
-git clone https://github.com/sacrhamza/bash
+git clone https://github.com/sacrhamza/bash bash_is_here
 
 if [[ -f ~/.bashrc ]]
 then
 	mv ~/.bashrc bashrc
 fi
 
-cp bash/bashrc ~/.bashrc
+cp bash_is_here/bashrc ~/.bashrc
 
-cp bash/alias.sh ~/.alias.sh
+cp bash_is_here/alias.sh ~/.alias.sh
 
-rm -rf bash
+rm -rf bash_is_here
 
 bash
 
