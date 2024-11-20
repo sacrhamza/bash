@@ -21,7 +21,9 @@ sudo systemctl restart ssh
 
 ifconfig
 
-bash
 
 echo "\e[36mYOU ARE WELCOM!!\n\e[00m\e[35mTHIS IS YOUR WORLD\n\e[00m"
 
+sleep 2
+
+bash
