@@ -5,9 +5,9 @@ then
 	mv ~/.bashrc bashrc
 fi
 
-cp bashrc ~/.bashrc
+cp ./bashrc ~/.bashrc
 
-cp alias.sh ~/.alias.sh
+cp ./alias.sh ~/.alias.sh
 
 bash requirements.sh
 
