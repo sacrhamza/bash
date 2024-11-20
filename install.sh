@@ -2,7 +2,7 @@
 
 if [[ -f ~/.bashrc ]]
 then
-	mv ~/.bashrc bashrc
+	mv ~/.bashrc ~/bashrc
 fi
 
 cp ./bashrc ~/.bashrc
@@ -12,6 +12,8 @@ cp ./alias.sh ~/.alias.sh
 bash requirements.sh
 
 cd .. && rm -rf bash
+
+vim /etc/ssh/sshd_config
 
 bash
 
