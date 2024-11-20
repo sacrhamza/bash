@@ -21,9 +21,14 @@ sudo systemctl status ssh
 
 sudo systemctl restart ssh
 
-sudo adduser "${username}"
+if [[ ! -z "$1" ]]
+then
+	sudo adduser "${1}"
 
-sudo usermod -aG sudo  "${username}"
+	sudo usermod -aG sudo  "${1}"
+
+	hostname "${1}42"
+fi
 
 echo -e "\e[36mYOU ARE WELCOM!!\n\e[00m\e[35mTHIS IS YOUR WORLD\n\e[00m"
 
