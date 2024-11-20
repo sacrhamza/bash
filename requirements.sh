@@ -6,6 +6,8 @@ for i in ${packages[@]}
 do
 	if [[ -z $(which $i) ]]
 	then
+		echo hey hey hey hey 
+		sleep 4
 		sudo apt install $i -y
 	fi
 done
