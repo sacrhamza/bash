@@ -5,13 +5,13 @@ then
 	mv ~/.bashrc bashrc
 fi
 
-cp bash/bashrc ~/.bashrc
+cp bashrc ~/.bashrc
 
-cp bash/alias.sh ~/.alias.sh
+cp alias.sh ~/.alias.sh
 
 bash requirements.sh
 
-rm -rf bash
+cd .. && rm -rf bash
 
 bash
 
