@@ -27,7 +27,7 @@ then
 
 	sudo usermod -aG sudo  "${1}"
 
-	hostname "${1}42"
+	sudo hostname "${1}42"
 fi
 
 echo -e "\e[36mYOU ARE WELCOM!!\n\e[00m\e[35mTHIS IS YOUR WORLD\n\e[00m"
