@@ -13,7 +13,13 @@ bash requirements.sh
 
 cd .. && rm -rf bash
 
-vim /etc/ssh/sshd_config
+sudo vim /etc/ssh/sshd_config
+
+sudo systemctl status ssh
+
+sudo systemctl restart ssh
+
+ifconfig
 
 bash
 
