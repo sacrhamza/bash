@@ -9,6 +9,8 @@ cp ./bashrc ~/.bashrc
 
 cp ./alias.sh ~/.alias.sh
 
+cp ./vimrc ~/.vimrc
+
 bash requirements.sh
 
 cd .. && rm -rf bash
