@@ -11,6 +11,13 @@ cp ./alias.sh ~/.alias.sh
 
 cp ./vimrc ~/.vimrc
 
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
+if [[ ! -f ~/.tmux.conf ]]
+then
+	cp ./tmux.conf ~/.tmux.conf
+fi
+
 bash requirements.sh
 
 cd .. && rm -rf bash
