@@ -88,3 +88,4 @@ desktop="${HOME}/Desktop"
 export desktop
 alias valias='vim ~/.alias.sh'
 alias script='bash ~/scripts/script.sh'
+alias oneperson='cd ~/bash && bash install.sh && cd -'
